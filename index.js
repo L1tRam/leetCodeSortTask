@@ -18,7 +18,7 @@ var sortBy = function(arr, fn) {
     return [...sortBy(left, fn), center, ...sortBy(right, fn)]
 }
 
-let step = 1
+let step = 1 //choose the step to test the code
 let array = [];
 let func = () => {};
 switch (step) {
